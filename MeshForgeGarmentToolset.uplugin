@@ -1,0 +1,46 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "0.1.0",
+  "FriendlyName": "MeshForge Garment Toolset",
+  "Description": "The Garment Studio as Model Context Protocol tools: open it, look at the character from named angles, pose the body, place the garment, sculpt, wrap and finish. For agents that can see. Every function drives the studio a person would use, so a person can watch and take over.",
+  "Category": "Automation Forge",
+  "CreatedBy": "Bojan Andrejek",
+  "CreatedByURL": "https://kovati.dev",
+  "DocsURL": "https://github.com/AutomationForgeHQ/MeshForgeGarmentToolset",
+  "MarketplaceURL": "",
+  "SupportURL": "https://github.com/AutomationForgeHQ/MeshForgeGarmentToolset/issues",
+  "EditorOnly": true,
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "MeshForgeGarmentToolset",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit",
+      "TargetAllowList": [
+        "Editor"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "MeshForge",
+      "Enabled": true,
+      "Comment": "The definitions the fit step lives on."
+    },
+    {
+      "Name": "MeshForgeGarment",
+      "Enabled": true,
+      "Comment": "The capability this exposes: the fit step and its Garment Studio."
+    },
+    {
+      "Name": "ToolsetRegistry",
+      "Enabled": true,
+      "Comment": "Not ModelContextProtocol: MCP is one transport reading the registry, and coupling to it would be backwards."
+    }
+  ]
+}
