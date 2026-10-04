@@ -1,6 +1,6 @@
 # MeshForgeGarmentToolset
 
-<!-- forge:version -->**Version 0.1.0. Experimental.**<!-- /forge:version -->
+<!-- forge:version -->**Version 0.1.1. Experimental.**<!-- /forge:version -->
 
 MeshForge Garment's **Garment Studio** as Model Context Protocol tools, for agents that can see: open it, look
 at the character from named angles, pose the body into the garment, place it, sculpt, wrap, judge the wrap from

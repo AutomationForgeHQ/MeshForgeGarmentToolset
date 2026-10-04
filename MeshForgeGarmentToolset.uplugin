@@ -1,7 +1,7 @@
 {
   "FileVersion": 3,
-  "Version": 1,
-  "VersionName": "0.1.0",
+  "Version": 2,
+  "VersionName": "0.1.1",
   "FriendlyName": "MeshForge Garment Toolset",
   "Description": "The Garment Studio as Model Context Protocol tools: open it, look at the character from named angles, pose the body, place the garment, sculpt, wrap and finish. For agents that can see. Every function drives the studio a person would use, so a person can watch and take over.",
   "Category": "Automation Forge",
